@@ -1,0 +1,7 @@
+-- 코드를 입력하세요
+select NAME, count(NAME) "COUNT"
+from ANIMAL_INS
+where NAME != 'NULL' 
+group by NAME
+having count(Name) >=2 -- where절에는 count함수 사용이 불가능하다. 
+order by NAME
