@@ -1,0 +1,5 @@
+-- 코드를 입력하세요
+SELECT price MAX_PRICE
+FROM PRODUCT
+ORDER BY 1 DESC 
+LIMIT 1
